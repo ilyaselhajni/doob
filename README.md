@@ -10,6 +10,7 @@ Doob is a project done in partnership between Salma Masioub and Ilyas Elhajni.
 + responsive
 
  salma: 
+ readme 
  1st section
  contact-us section 
  + responsive
