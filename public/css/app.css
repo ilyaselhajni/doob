@@ -195,8 +195,8 @@ p {
     font-weight: bold;
     border: none;
 }
-.red{
-
+.red , form button{
+border: none;
     padding: 2vh 3vw;
     background-color: #DC2626;
     color: white;
@@ -208,6 +208,86 @@ p {
     color: #1E3A8A;
 }
 
+.contact_us{
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+ .contact_us form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+ }
+form{
+    width: 90%;
+    text-align: start;
+    
+    
+}
+input{
+    border: none;
+    
+}
+ form input::placeholder{
+    font-weight: bold;
+    color: #1E3A8A;
+    padding: 2vh 1vw;
+}
+ .inputs_container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+ }
+
+ .frst_inputs {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 3vw;
+ }
+
+ .frst_inputs input{
+    width: 50%;
+    padding: 2vh 0vw;
+    background-color:#d8edf0 ;
+ }
+
+.scnd_input{
+    width: 100%;
+    text-align: start;
+    
+}
+.scnd_input input{
+    text-align: start;
+    width: 100%;
+    padding: 2vh 0vw 9vh 0vw;
+    background-color:#d8edf0 
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    width: 80%;
+    text-align: start;
+   
+}
+legend{
+    color: #DC2626;
+    font-weight: bold;
+}
+.description h1{
+    color: #1E3A8A;
+}
+   
 
 @media (max-width: 428px) {
     label{
