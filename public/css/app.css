@@ -351,4 +351,15 @@ legend{
     .btns{
         gap:16vw !important;
     }
+
+    form{
+        width: 100vw;
+    }
+
+    .frst_inputs input{
+padding: 1vh;
+    }
+    input::placeholder{
+        font-weight: lighter !important;
+    }
  }
